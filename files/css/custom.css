@@ -161,8 +161,8 @@ ANIMATIONS
 
 
 .app-switch {
-    width: 450px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     background:url('../images/grv/app/ipad_app-unlocked.png');
     background-size: cover;
     animation-name: app-switch;
@@ -177,4 +177,26 @@ ANIMATIONS
     -moz-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
+}
+
+
+/* Music Notes */
+ul li.music {
+    display: block;
+    float: left;
+    font-size: 1em;
+    color: #e75b2e ;
+
+}
+.anim {
+    -webkit-animation: music 1s ease-in-out both infinite;
+}
+
+@-webkit-keyframes music {
+    0%,100% {
+        -webkit-transform: translate3d(0,-10px,0);
+    }
+    50% {
+        -webkit-transform: translate3d(0,10px,0);
+    }
 }
