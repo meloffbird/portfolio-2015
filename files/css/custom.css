@@ -39,6 +39,10 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 */
 
+.minor-margin {
+    margin-top: 30px;
+}
+
 /*----------------------------------------------
 1. BASICS
 ------------------------------------------------*/
@@ -46,11 +50,13 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 /* Paragraphs
 ---------------------------------------- */
-.underline {
-    background: yellow;
+.highlight {
+    background: #e75b2e;
     font-weight: 400;
     padding: 5px;
+    color: white;
 }
+
 
 .caption {
     font-weight: 400;
@@ -62,13 +68,26 @@ p.caption + p {
     font-weight: 200px;
 }
 
+.sidenote {
+    font-size: 13px;
+}
 /*----------------------------------------------
 3. HEADER
 ------------------------------------------------*/
 
-.hero-grad-light {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(247, 247, 247, 0.75) 59%, hsl(0, 100%, 100%) 100%);
-}
+
+/*----------------------------------------------
+8. PORTFOLIO
+------------------------------------------------*/
+
+/* Groov
+---------------------------------------- */
+/*  orange: #e75b2e   */
+/*  purple: #371944   */
+/*  magenta: #a61f64   */
+
+
+
 
 
 
