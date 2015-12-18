@@ -1,0 +1,85 @@
+/*----------------------------------------------
+14. COLUMNS GRID
+------------------------------------------------
+.column-section { margin-top: 60px; }
+div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
+
+.column {
+    float: left;
+    margin-right: 60px;
+    min-height: 1px;
+    }
+
+.one-full { width: 100%; float: none; margin-right: 0; }
+.one-half  { width: 510px; }
+.one-third { width: 320px; }
+.two-third { width: 700px; }
+.one-fourth { width: 225px; }
+.two-fourth { width: 510px; }
+.three-fourth { width: 795px; }
+.one-fifth { width: 168px; }
+.two-fifth { width: 396px; }
+.three-fifth { width: 624px; }
+.four-fifth { width: 852px; }
+
+.wrapper-small .one-half { width: 360px; }
+.wrapper-small .one-third { width: 220px; }
+.wrapper-small .two-third { width: 500px; }
+.wrapper-small .one-fourth { width: 150px; }
+.wrapper-small .two-fourth { width: 360px; }
+.wrapper-small .three-fourth { width: 570px; }
+.wrapper-small .one-fifth { width: 108px; }
+.wrapper-small .two-fifth { width: 276px; }
+.wrapper-small .three-fifth { width: 444px; }
+.wrapper-small .four-fifth { width: 612px; }
+
+.wrapper-mini .column { float: none; margin-right: 0px; width: 100%; }
+
+.last-col { margin-right: 0px !important; }
+
+*/
+
+/*----------------------------------------------
+1. BASICS
+------------------------------------------------*/
+
+
+/* Paragraphs
+---------------------------------------- */
+.underline {
+    background: yellow;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.caption {
+    font-weight: 400;
+}
+
+p.caption + p {
+    margin-top: 0px;
+    font-size: 11px;
+    font-weight: 200px;
+}
+
+/*----------------------------------------------
+3. HEADER
+------------------------------------------------*/
+
+.hero-grad-light {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(247, 247, 247, 0.75) 59%, hsl(0, 100%, 100%) 100%);
+}
+
+
+
+/*----------------------------------------------
+12. HORIZONTAL SECTIONS
+------------------------------------------------*/
+.horizontal-section .horizontal-inner {
+    padding: 80px 0;
+    }
+
+
+
+
+
