@@ -52,7 +52,7 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 ------------------------------------------------*/
 
 
-/* Paragraphs
+/* Typography
 ---------------------------------------- */
 .highlight {
     background: #e75b2e;
@@ -76,6 +76,15 @@ p.caption + p {
     font-size: 13px;
     margin-top: 0px;
 }
+
+
+ul.sidenote li {
+    margin: 0px;
+}
+
+ul.sidenote li:first-child {
+    margin-top: 10px;
+}
 /*----------------------------------------------
 3. HEADER
 ------------------------------------------------*/
@@ -87,9 +96,11 @@ p.caption + p {
 
 /* Groov
 ---------------------------------------- */
-/*  orange: #e75b2e   */
-/*  purple: #371944   */
-/*  magenta: #a61f64   */
+/*
+orange: #e75b2e
+purple: #371944
+magenta: #a61f64
+*/
 
 
 .grv-orange {
@@ -100,6 +111,22 @@ p.caption + p {
     background: #e75b2e;
     color: white;
 }
+
+
+/* Kickback
+---------------------------------------- */
+/*
+green #44b86c
+blue #11adb8
+yellow #ffca00
+black #373737
+*/
+
+
+.kck-green {
+    color: #44b86c;
+}
+
 
 
 
