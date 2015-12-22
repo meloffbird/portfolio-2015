@@ -17,6 +17,7 @@
 .three-fifth { width: 552px; }
 .four-fifth { width: 756px; }
 
+
 }
 
 
@@ -242,6 +243,10 @@ ul.filter li { padding: 0 6px; }
     display: none;
 }
 
+.show-xs {
+    display: block !important;
+}
+
 .gallery.spaced li.twenty-five {
     width: 25% !important;
 }
@@ -254,5 +259,6 @@ ul.filter li { padding: 0 6px; }
 .gallery li.fifty {
     width: 50% !important;
 }
+
 
 }

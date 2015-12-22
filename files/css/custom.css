@@ -47,6 +47,10 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
     margin-top: 0px;
 }
 
+
+.show-xs {
+    display: none;
+}
 /*----------------------------------------------
 1. BASICS
 ------------------------------------------------*/
@@ -136,7 +140,8 @@ black #373737
     background-image: url(../images/kck/kickback-logo_green.png);
     width: 280px;
     height: 300px;
-    background-size: 80%;
+    background-size: 100%;
+    background-position-y: 50%;
     background-repeat: no-repeat;
      /* TRANSITION */
     -webkit-transition: background-image 1s ease-in-out;
