@@ -128,7 +128,27 @@ black #373737
 }
 
 
+.fa.swatch {
+    vertical-align: middle;
+}
 
+.kickback-logo {
+    background-image: url(../images/kck/kickback-logo_green.png);
+    width: 280px;
+    height: 300px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+     /* TRANSITION */
+    -webkit-transition: background-image 1s ease-in-out;
+    -moz-transition: background-image 1s ease-in-out;
+    -o-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;
+}
+
+.kickback-logo:hover {
+    background-image: url(../images/kck/logo-iterations.png);
+
+}
 
 /*----------------------------------------------
 12. HORIZONTAL SECTIONS
@@ -236,4 +256,11 @@ ul li.music {
     50% {
         -webkit-transform: translate3d(0,10px,0);
     }
+}
+
+
+iframe.axure {
+    width: 400px;
+    height: 750px;
+    overflow: hidden;
 }

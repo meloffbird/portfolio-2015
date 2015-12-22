@@ -251,4 +251,8 @@ ul.filter li { padding: 0 6px; }
     width: 50% !important;
 }
 
+.gallery li.fifty {
+    width: 50% !important;
+}
+
 }
