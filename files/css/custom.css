@@ -89,10 +89,24 @@ ul.sidenote li {
 ul.sidenote li:first-child {
     margin-top: 10px;
 }
+
+.white {
+    color: white !important;
+}
+
+.quote {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 30px;
+}
 /*----------------------------------------------
 3. HEADER
 ------------------------------------------------*/
 
+/*----------------------------------------------
+7. HERO/PAGETITLE
+------------------------------------------------*/
+#hero.hero-full { background-size: cover; }
 
 /*----------------------------------------------
 8. PORTFOLIO
@@ -155,6 +169,26 @@ black #373737
 
 }
 
+
+/* Frankly
+---------------------------------------- */
+/*
+red #d81f27
+green #a0a437
+pink #dc157e
+blue #273891
+*/
+
+.frk-pink {
+   color: #dc157e;
+}
+
+.back-blue {
+    background-color: #273891;
+    color: white;
+}
+
+
 /*----------------------------------------------
 12. HORIZONTAL SECTIONS
 ------------------------------------------------*/
@@ -165,6 +199,17 @@ black #373737
 
 .back-gray {
     background: #f7f7f7;
+}
+
+
+
+/*----------------------------------------------
+15. SHORTCODES / ELEMENTS
+------------------------------------------------*/
+
+ul.bottomless li {
+    margin-bottom: 20px !important;
+
 }
 
 
