@@ -2159,10 +2159,10 @@ a.img-hover:hover .hover-caption {
 */
 
 /* your logo height */
-header #logo { height: 30px;	 }
-.open-nav { height: 30px; }
-.open-nav .text { line-height: 30px;	 }
-nav#main-nav ul li > a { line-height: 30px; }
+header #logo { height: 50px;	 }
+.open-nav { height: 50px; }
+.open-nav .text { line-height: 50px;	 }
+nav#main-nav ul li > a { line-height: 50px; }
 
 /* logo height + header-inner margin (30px + 2*60px) */
 #page-body { padding-top: 150px; }
