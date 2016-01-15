@@ -67,6 +67,7 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 
 .caption {
+    font-size: 12px;
     font-weight: 400;
 }
 
@@ -107,6 +108,12 @@ ul.sidenote li:first-child {
 .colored {
     color: #7EB041;
     }
+
+
+.project-info .colored {
+    color: #525252 !important;
+
+}
 
 /*----------------------------------------------
 3. HEADER
@@ -250,6 +257,8 @@ ANIMATIONS
             -ms-transform: translate(5em,0);
 }
 
+/* Groov app */
+
 @keyframes app-switch {
   0% {
     -webkit-transform: none;
@@ -329,4 +338,34 @@ iframe.axure {
     width: 400px;
     height: 750px;
     overflow: hidden;
+}
+
+
+
+/* Computer Science */
+section.hero-csc {
+    background: linear-gradient(1deg, #cc0000, #383839);
+    background-size: 400% 400% !important;
+
+    -webkit-animation: csc-grad 5s ease infinite;
+    -moz-animation: csc-grad 5s ease infinite;
+    animation: csc-grad 5s ease infinite;
+
+
+}
+
+@-webkit-keyframes csc-grad {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes csc-grad {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes csc-grad {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 }
