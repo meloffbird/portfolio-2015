@@ -58,6 +58,11 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 /* Typography
 ---------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0em;
+}
+
 .highlight {
     background: #e75b2e;
     font-weight: 400;
@@ -106,13 +111,17 @@ ul.sidenote li:first-child {
 ------------------------------------------------*/
 
 .colored {
-    color: #7EB041;
+    color: #7EB041 !important;
     }
 
 
 .project-info .colored {
     color: #525252 !important;
 
+}
+
+.description {
+    position: relative;
 }
 
 /*----------------------------------------------
@@ -234,9 +243,6 @@ ul.bottomless li {
     margin-bottom: 20px !important;
 
 }
-
-
-
 
 
 /*----------------------------------------------
