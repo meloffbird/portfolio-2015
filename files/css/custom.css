@@ -61,6 +61,15 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0em;
+    text-transform: none;
+}
+
+
+.objective {
+    border-top: 2px solid black;
+    display: inline-block;
+    padding-right: 200px;
+    padding-top: 20px;
 }
 
 .highlight {
@@ -196,10 +205,10 @@ black #373737
     transition: background-image 1s ease-in-out;
 }
 
-.kickback-logo:hover {
+/*.kickback-logo:hover {
     background-image: url(../images/kck/logo-iterations.png);
 
-}
+}*/
 
 
 /* Frankly
