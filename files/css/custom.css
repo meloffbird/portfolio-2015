@@ -39,6 +39,8 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 */
 
+.column-section { margin-top: 30px; }
+
 .minor-margin {
     margin-top: 30px;
 }
