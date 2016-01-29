@@ -45,6 +45,7 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 .notop {
     margin-top: 0px;
+    margin-bottom:10px;
 }
 
 
@@ -93,7 +94,8 @@ p.caption + p {
 
 .sidenote {
     font-size: 13px;
-    margin-top: 0px;
+    margin-top:10px;
+    line-height: 20px;
 }
 
 
