@@ -147,7 +147,6 @@ ul.sidenote li:first-child {
 3. MENU/NAV
 ------------------------------------------------*/
 
-
 nav#main-nav > ul > li:hover > a, nav#main-nav > ul > li.current-menu-item > a { color: #7EB041 !important; }
 
 /*----------------------------------------------
