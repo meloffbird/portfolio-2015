@@ -195,6 +195,10 @@ nav#main-nav { top: 90px !important; height: calc(100% - 110px); }
 	line-height: 1.5em;
 }
 
+.hero-full {
+	background-position: 50%;
+}
+
 
 } /* end query */
 
