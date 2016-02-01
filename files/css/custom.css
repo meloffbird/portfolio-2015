@@ -268,20 +268,16 @@ ul.bottomless li {
 /*----------------------------------------------
 ABOUT
 ------------------------------------------------*/
-
 .about-pic {
     background: url("../images/about/monocle-2.png");
-    display: block;
     background-size: cover;
-    width: 100%;
-    height: 400px;
     background-position: 50% 50%;
-
+    height: 400px;
 }
 
-.about-pic:hover {
+#about .about-pic:hover {
     background: url("../images/about/monocle-bw.gif");
-    background-position: 50% 50%;
+    background-position: 80% 50%;
     background-size: cover;
 }
 
