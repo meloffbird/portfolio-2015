@@ -198,12 +198,6 @@ nav#main-nav { top: 90px !important; height: calc(100% - 110px); }
     background-position: 50%;
 }
 
-#about .about-pic {
-    background: url("../images/about/monocle-2.png");
-    background-size: cover;
-    background-position: 50% 50%;
-    height: 400px;
-}
 
 .about-pic:hover {
     background-position: 50% 50%;
