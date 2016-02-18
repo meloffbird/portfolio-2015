@@ -425,15 +425,6 @@ jQuery(window).load(function() {
 
 	stickyfooter();
 
-		/*----------------------------------------------
-				  MUSIC NOTES
-	------------------------------------------------*/
-	for(var i=0;i<9;i++) {
-    var x = $('li.music')[i];
-    $(x).css('-webkit-animation','music 1s '+i+'00ms  ease-in-out both infinite');
-	}
-
-
 });
 
 jQuery(window).resize(function() {
@@ -445,5 +436,3 @@ jQuery( window ).scroll(function() {
 });
 
 })(jQuery);
-
-
