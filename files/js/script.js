@@ -427,9 +427,9 @@ jQuery(window).load(function() {
 
 });
 
-jQuery(window).resize(function() {
-	stickyfooter();
-});
+// jQuery(window).resize(function() {
+// 	stickyfooter();
+// });
 
 jQuery( window ).scroll(function() {
 	smoothShow();
