@@ -260,7 +260,14 @@ blue #273891
     color: #7EB041;
 }
 
+.topbar {
+    border-top: 5px solid #7EB041;
+}
 
+.back-glo {
+    background-color: #4CD3C5;
+    color: white;
+}
 /*----------------------------------------------
 12. HORIZONTAL SECTIONS
 ------------------------------------------------*/
