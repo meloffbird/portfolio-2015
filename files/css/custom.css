@@ -268,9 +268,21 @@ blue #273891
     padding: 80px 0;
     }
 
+.horizontal-section .horizontal-inner.no-padding {
+    padding: 0px 0;
+}
+
 
 .back-gray {
     background: #f7f7f7;
+}
+
+.back-black {
+    background: #1A1A1A;
+}
+
+.back-black h3, .back-black h4 {
+    color: white;
 }
 
 
