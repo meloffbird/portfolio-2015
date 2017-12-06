@@ -313,17 +313,17 @@ ul.bottomless li {
 ABOUT
 ------------------------------------------------*/
 .about-pic {
-    background: url("../images/about/mon-smile.jpg");
+    background: url("../images/about/ele-headshot.jpg");
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 20%;
     height: 400px;
 }
 
-#about .about-pic:hover {
+/*#about .about-pic:hover {
     background: url("../images/about/monocle-bw.gif");
     background-position: 80% 50%;
     background-size: cover;
-}
+}*/
 
 img.emoji {
   // Override any img styles to ensure Emojis are displayed inline
