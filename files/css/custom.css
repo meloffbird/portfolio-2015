@@ -39,7 +39,9 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 */
 
-.column-section { margin-top: 30px; }
+.horizontal-section .horizontal-inner {
+    padding: 60px 0px;
+}
 
 .minor-margin {
     margin-top: 30px;
@@ -50,16 +52,32 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
     margin-bottom:10px;
 }
 
+.minor-pad-top {
+    padding-top: 40px;
+}
 
 .show-xs {
     display: none;
 }
+
+@media only screen and (max-width: 781px) {
+
+    .column-section { margin-top: 60px; }
+    .column {margin-right: 0;width: 100% !important;margin-top: 10px;}
+
+}
+
+
 /*----------------------------------------------
 1. BASICS
 ------------------------------------------------*/
 
 img {
     box-sizing: border-box;
+}
+
+.wire-border {
+    border: 1px solid lightgray;
 }
 
 /* Typography
@@ -277,14 +295,10 @@ blue #273891
     color: white;
 }
 
-/* Marcus
+/* Status
 ---------------------------------------- */
 
-
-.wire-border {
-    border: 1px solid lightgray;
-}
-
+#page-body.status-page
 
 /*----------------------------------------------
 12. HORIZONTAL SECTIONS
