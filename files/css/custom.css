@@ -65,6 +65,7 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
     .column-section { margin-top: 60px; }
     .column {margin-right: 0;width: 100% !important;margin-top: 10px;}
 
+    .hide-xs { display: none; }
 }
 
 
@@ -78,6 +79,10 @@ img {
 
 .wire-border {
     border: 1px solid lightgray;
+}
+
+.centered {
+    text-align: center;
 }
 
 /* Typography
