@@ -75,9 +75,10 @@
 	<!-- HEADER -->
 
 	<!-- HERO  -->
-	<section id="hero" class="hero-full" style="background-image:url('files/images/sts/header-sts.png');">
+   <section id="hero" class="hero-full parallax-section" data-parallax-image="files/images/sts/header_sts.png">
+<!-- 	<section id="hero" class="hero-full" style="background-image:url('files/images/sts/header_sts.png');"> -->
 		<div class="page-title">
-			<h5 class="alttitle">Presenting information clearly</h5>
+			<h5 class="alttitle">Bringing data to the people</h5>
 			<h1><strong>Status Money</strong></h1>
 		</div>
 		<a id="scroll-down" href="#">Scroll Down</a>
@@ -89,8 +90,7 @@
 
 		<div class="wrapper">
 			<div class="project-info column-section clearfix">
-				<div class="column one-th
-				ird">
+				<div class="column one-third">
 					<h6 class="colored"><strong>Date</strong></h6>
 					<h6 class="alttitle">2017</h6>
 				</div>
@@ -118,13 +118,10 @@
 				<div class="column-section clearfix minor-margin">
 					<div class="column two-third">
 						<p>
-						Status Money is a personal finance management platform that allows users to compare their finances with similar peer groups in order to better track their overall financial wellness. I worked on this project while at Elephant, and the project was positioned as a way to test out a new client working relationship. The two key stakeholders and owners of the startup were placed in the office two days out of the week, allowing us to have more informal reviews and consistent daily feedback.
+						Status Money is a personal finance management platform that allows users to compare their finances with similar peer groups in order to better track their overall financial wellness. The MVP of the project was completed over the course of 6 two-week sprints and was taken on by the Elephant team as a test-run of a new, more integrated, client partner relationship. The two key stakeholders of the startup were embedded in the office 2-3 days out of the week, which allowed for more frequent check-ins and faster feedback turnarounds.
 						</p>
 						<p>
-						I was brought on to the project primarily to help develop the modular system of data visualizations as the client moved towards building an MVP that could be presented to investors.
-						</p>
-						<p>
-						I’m going to start out by explaining the basic structure of the site and then review some of the challenges we ran into while developing the data modules.
+						I was brought on to the project as a UX Designer to help develop the onboarding experience and the modular system of data visualizations that would be used throughout the site. Although we built the entire MVP from the ground up, I have framed this case study here with a bit more focused view, going into the thought process behind just one of the data modules we developed.
 						</p>
 
 					</div>
@@ -145,22 +142,57 @@
 		<div class="horizontal-section">
 			<div class="horizontal-inner wrapper" style="padding: 0px;">
 
-				<h3><strong> The Basics </strong></h3>
+				<h3><strong> Key Site Features </strong></h3>
 
 
-			</div><!-- END .horizontal-inner -->
+			</div>
 		</div> <!-- END .horizontal-section -->
 
 		<div class="horizontal-section">
 			<div class="horizontal-inner wrapper" style="padding-top: 40px;">
 
+				<div class="column-section clearfix">
+
+					<div class="column one-half">
+						<h6>1. Data Modules </h6>
+						<p>
+							When I joined the project the general design system had already been established, but more work needed to be done to ensure the library was flexible enough to accommodate a diverse range of different visualizations (pie charts, line graphs, bar charts, etc). Most importantly, each visualization had to clearly present the values of the user's financial status alongside those of their comparative groups.
+						</p>
+					</div>
+
+					<div class="column one-half last-col">
+						<img src='files/images/sts/data-module.png'/>
+					</div>
+
+				</div><!-- END .column-section -->
 
 				<div class="column-section clearfix">
 
 					<div class="column one-half">
-						<h6>1. Group Filter </h6>
+						<h6>2. Insight Cards </h6>
 						<p>
-							The key value add of the product is housed in the side bar Group Filter. By default, the users core “People Like You” peer group was determined by age, income, credit score and asset ownership. Then the user was able to toggle the third comparative group to just people in their area, their income range, etc or build a custom range
+							In order to help users digest all the visual information being presented, each of the visualizations was accompanied by a stack of contextual <strong>Insight Cards</strong>:
+						</p>
+							<ul style="font-size: 14px;">
+								<li><strong> Tracker: </strong><em> Insight related to peer groups or unusual spending </em></li>
+								<li><strong> Alert: </strong><em> Important account notification </em> </li>
+								<li><strong> Offer: </strong> <em> An offer or a promotion </em> </li>
+								<li><strong> Nice to Know: </strong> <em> Interesting, but not actionable trend. </em> </li>
+							</ul>
+					</div>
+
+					<div class="column one-half last-col">
+						<img src='files/images/sts/insight-cards.png'/>
+					</div>
+
+				</div><!-- END .column-section -->
+
+				<div class="column-section clearfix">
+
+					<div class="column one-half">
+						<h6>3. Group Filter Sidebar</h6>
+						<p>
+							The ever-present <strong> Group Filter Sidebar </strong> displayed the color key for all the data comparisons. From the sidebar users were able to see the details of how their "People Like You" peer group (users with similar age, income, credit score and asset ownership) as well as toggle a third comparative group of people in their city, income range or more custom criteria.
 						</p>
 					</div>
 
@@ -170,7 +202,7 @@
 
 				</div><!-- END .column-section -->
 
-				<div class="column-section clearfix">
+<!-- 				<div class="column-section clearfix">
 
 					<div class="column one-half">
 						<h6>2. Category/Time Filter </h6>
@@ -183,33 +215,17 @@
 						<img class="wire-border" src='files/images/sts/filter.png'/>
 					</div>
 
-				</div><!-- END .column-section -->
-
-				<div class="column-section clearfix">
-
-					<div class="column one-half">
-						<h6>3. Data Modules </h6>
-						<p>
-							Finally, the core of the product were the data modules. I will get into the different types of graphs and charts we developed but the basic format is that there is a graph attached to a serious of insight cards. The cards presented four different types of information:  Tracker, Alert, Offer, or Nice To Know.
-						</p>
-					</div>
-
-					<div class="column one-half last-col">
-						<img class="wire-border" src='files/images/sts/card-module.png'/>
-					</div>
-
-				</div><!-- END .column-section -->
+				</div> -->
 
 <!-- 				<div class="column-section">
 					<img src='files/images/sts/overview-design.png'/>
 				</div> -->
 
-				<div class="column-section">
-
+				<div class="column-section clearfix">
 					<a href="http://www.youtube.com/embed/e2rDNy1nM-8?rel=0&amp;showinfo=0" data-rel="lightcase"><img src="files/images/sts/dashboard-placeholder.png"/ alt="Play Video"></a>
 				</div>
 
-			</div><!-- END .horizontal-inner -->
+			</div>
 		</div> <!-- END .horizontal-section -->
 
 
@@ -219,26 +235,28 @@
 				<div class="column-section clearfix">
 					<div class="column two-third">
 
-						<h3><strong> Bring on the data </strong></h3>
-
-						<p> As with many of the modules we developed, it was important to strike a balance of providing helpful, actionable information to the user without overwhelming them. For the debts and liabilities page, one key module we needed was one that showed the user an overview of their liabilities and informed them if they were getting the best rates compared to their peers. </p>
+						<h3><strong> Bring on the Data  </strong></h3>
+						<p>The <strong> interest rate module </strong>, which displayed the interest rates and monthly fee/interest totals for all of the user's debt accounts, was one of the more text-heavy modules that we were tasked with. It was a particularly interesting challenge trying to strike the right balance of visual aid and supportive text. </p>
 					</div>
 				</div>
 
 
-			</div><!-- END .horizontal-inner -->
+			</div>
 		</div> <!-- END .horizontal-section -->
 
 		<div class="horizontal-section">
 			<div class="horizontal-inner wrapper">
 
-					<h4> Tabs and Notifications </h4>
+					<h4> Notifications </h4>
 
 					<div class="column-section clearfix has-animation" data-delay="100">
 
 						<div class="column one-third">
-							<h6>A. Chart Tabs </h6>
-							<p> Our first stab at denoting the number of your accounts that were eligible for a better rate was to use these circle graphics. This ended up not working so well, as it made it seem like some sort of fraction. Then the user had to some weird backwards thinking in order to figure out why it said 0/2 instead but there was two red notifications. In end we ended up bringing it back but in the iniital layout it really felt confusing
+							<h6>A. Progress Circle  </h6>
+							<p>
+
+							In this first iteration, the number of accounts with competitive rates is displayed over the total number of that type of debt account. This treatment was supposed to present a sense of urgency to "complete the circle" and achieve a better financial status. </br> <em> However, it quickly became clear that the circle graphic was too confusing to interpret, and the harsh red error was more annoying than encouraging. </em>
+
 							</p>
 						</div>
 
@@ -253,7 +271,7 @@
 
 						<div class="column one-third">
 							<h6>B. Text Notification</h6>
-							<p> We also tried a more text based approach but ran into some issues with readability. Also with the red marks, it made it seem as if there was an error with their accounts
+							<p> I suggested we try a simpler text approach but ran into some issues with readability. Also with the exclamation marks, it made the error just as harsh as before.
 							</p>
 						</div>
 
@@ -268,7 +286,7 @@
 
 						<div class="column one-third">
 							<h6> C. Badge Notification </h6>
-							<p> We then moved on to try a more notification badge approach, letting the user know that there was something to be evaluated with their account.
+							<p> More like an app notification, the badge approach made it clear how many accounts were in need of attention. Although, it was clearthat red was likely not the right color to go with for these notifications.
 							</p>
 						</div>
 
@@ -278,26 +296,25 @@
 
 					</div><!-- END .column-section -->
 
-
-
 					<div class="spacer spacer-medium"> </div>
+
+					<p> Interest photo here of sketches </p>
 
 					<div class="column-section clearfix">
 
 						<div class="column two-third last-col">
 
-							<h4> Peer Comparison and View Offers </h4>
+							<h4> Peer Comparison and Offers </h4>
 
-							<p> As we continued to experiment with the best form of notification style, we needed to figure out way to display the peer interest rate with the value of your savings and a CTA to view offers relevant to you </p>
-
-							<p> With the full card there were a few questions we needed to answer: </p>
+							<p> Once the user was made aware of their eligible accounts, the next step was to solve for two key questions:
+							</p>
 
 							<ul>
-								<li> <strong> What peer information would be most helpful in determining the competitiveness of the user's interest rates? </strong> </li>
-								<li> <strong> How do we make clear the total savings the user is missing out on? </strong> </li>
+								<li> <strong> What peer information would be most helpful for the user to gage the competitiveness of their current interest rates? </strong> </li>
+								<li> <strong> How do we make clear the total savings the user is missing out on with their current interest rates? </strong> </li>
 							</ul>
 
-							<p> In the top right iteration, we wanted to show how the total savings was an exact calculation of all the individual savings from the user's accounts but the placement at the top seemed off. Then in the bottom right iteration we tried separating the information about interest rate from the savings by pulling the savings into the insight car. Pulling it into a side card seemed redundant so we then opted to show the savings in the insight card that was already a part of the design. </p>
+							<p> In Option A, I presented the average overspend along with the potential savings but these numbers competed too much with one another. In Option B and Option C I minimized the importance of the peer rate in an effort to highlight the potential savings (the more valuable metric) but the balance of information still felt too similar across the card. Taking a step in the opposite direction, I tried in Option D to pull the savings into card and present the median peer interest rate as a prominent number that could easily be compared to the user's listed debt account rates. </p>
 
 						</br>
 						</br>
@@ -306,7 +323,7 @@
 
 					</div> <!-- END .column-section -->
 
-					<img src='files/images/sts/savings-total-cards.png'/>
+					<img id="savingscard" src='files/images/sts/savings-total-cards.png'/>
 
 					<div class="column-section clearfix">
 
@@ -315,9 +332,9 @@
 						</div>
 
 						<div class="column two-third last-col">
-							<h5> Peer Rate Comparison </h5>
-							<p> In the middle of developing this module we recieved legal feedback that we couldn't show just one number for the average peer rate comparison since it was actually a range. As a result we then had to shift our energy into figuring out how to show this additional value that could no longer be simplified down into a single value. So the value we had been showing to the right in the modules needed to be shown more accurately.  </p>
-							<p> We experimented with simplifying and having less data, as well as switching to a text based notification rather than visual </p>
+							<h5> Peer rate range</h5>
+							<p> In the middle of tackling this issue of displaying the average peer rate we received legal feedback that we couldn't show just one number for the median peer rate since the range was more accurate . As a result we shifted our perspective and attempted to present both the user's interest rates and the peer's average rates in the same visualization. </p>
+							<p> I presented a few options for internal review that were more graphical as well as a text-based approach which ended up skewing too far away from our existing style guide. </p>
 						</div>
 
 
@@ -353,8 +370,8 @@
 					<div class="column-section clearfix">
 
 						<div class="column two-third">
-						<h5> Further Iterations </h5>
-						<p> After presenting the wireframes I worked closely with our visual designer, John Signsbaugh, to develop further visual treatments of the rate comparison as well as the savings total.
+						<h5> Moving into visual design </h5>
+						<p> After getting feedback on the above approaches I worked I worked closely with our visual designer to develop further visual treatments of the rate comparison and total savings. Paying especially close attention to the clarity of the notification coloring and the view offers CTA.
 						</div>
 
 					</div> <!-- END .column-section -->
@@ -365,8 +382,8 @@
 					<div class="column-section clearfix">
 
 						<div class="column two-third last-col">
-						<h4> End Result </h4>
-						<p> This is the final page. I was happy with the result and think that we solved a lot of the problems </p>
+						<h4> Final Design: Your Debts </h4>
+						<p> In the end we pulled in a strongly visual influence from the style guide of our other data visualizations and ensured ample breathing room for all the data. The view offers CTA is at the top so that the user can easily jump to the offers page or dig deeper into each account and how their rate compares to their peers.  </p>
 						</div>
 
 					</div> <!-- END .column-section -->
@@ -375,7 +392,7 @@
 					<img src='files/images/sts/debt-fullpage.jpg'/>
 
 
-			</div><!-- END .horizontal-inner -->
+			</div>
 		</div> <!-- END .horizontal-section -->
 
 		<div class="horizontal-section back-gray">
@@ -386,12 +403,15 @@
 
 						<h3><strong> More to come!  </strong></h3>
 
-						<p> This has obviously been more of a breakdown of one of the parts of the site. I hope to do more thorough breakdowns of the onboarding and other processes soon. In the meantime check out the site for yourself at statusmoney.com </p>
+						<p> I hope to update this case study with more breakdowns of the onboarding process and the other data modules sometime soon, but in the meantime I encourage you to check out your own status at <a href="statusmoney.com"> statusmoney.com</a> and start making those first steps to a brighter financial future (filled with helpful tooltips and lots of soft grays).
+						</p>
+						<p>
+						Or you can just take other people's word for it: </p>
 					</div>
 				</div>
 
 
-			</div><!-- END .horizontal-inner -->
+			</div>
 		</div> <!-- END .horizontal-section -->
 
 		<div class="horizontal-section">
@@ -424,7 +444,7 @@
 
 				</div> <!-- END .column-section -->
 
-			</div><!-- END .horizontal-inner -->
+			</div>
 		</div> <!-- END .horizontal-section -->
 
 
